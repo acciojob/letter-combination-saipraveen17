@@ -24,7 +24,7 @@ function combo(ind,mapping,ans,input_digit,str) {
 	}
 	for (let i = 0; i < mapping[input_digit[ind]].length; i++) {
 		let mapped =  mapping[input_digit[ind]];
-		combo(ind+1,mapping,ans,input_digit,str+mapped[i])';'
+		combo(ind+1,mapping,ans,input_digit,str+mapped[i]);
 	}
 }
 
